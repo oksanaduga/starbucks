@@ -1,0 +1,193 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #303E38;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #B1D3B8;
+}
+
+p, a, h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h2 {
+  font-size: 38px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.container:first-child {
+  background-color: #B1D3B8;
+}
+
+.nav {
+  display: flex;
+}
+
+.logo {
+  padding-top: 53px;
+  padding-right: 111px;
+}
+
+ul, li {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+	display: flex;
+  padding-top: 82px;
+  padding-right: 480px;
+}
+
+.menu li {
+  margin-left: 58px;
+}
+
+.basket {
+  padding-top: 70px;
+}
+
+.offer {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: space-around;
+}
+
+.promo {
+  margin-left: 30px;
+  width: 400px;
+}
+
+.intro {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-top: 155px;
+}
+
+.main-title {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 45px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.main-picture {
+  width: 620px;
+  height: 625px;
+  margin: 0 0 auto 0;
+  padding: 0;
+}
+
+.bright-color {
+  color: #8F5927;
+}
+
+.main-text {
+  width: 300px;
+  font-weight: 300px;
+  line-height: 17px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #FEEFD8;
+  padding: 10px 15px;
+  color: #303E38;
+}
+
+.description-container {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: space-around;
+}
+
+.img-frame {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 30px;
+
+}
+
+.img1 {
+  width: 600px;
+  height: 400px;
+}
+
+.img2 {
+  width: 200px;
+  height: 255px;
+}
+
+.img3 {
+  width: 350px;
+  height: 255px;
+}
+
+.description-text {
+  margin-right: 150px;
+  margin-top: 180px;
+}
+
+.title-catalog {
+  padding-top: 100px;
+  padding-left: 40px;
+}
+
+.catalog-items {
+  margin: 50px 50px;
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.catalog-img {
+  width: 340px;
+  height: 351px;
+}
+
+.catalog-description {
+  text-align: center;
+}
+
+.catalog-btn {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  padding: 0;
+  margin: 0;
+}
+
+
+.footer {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.logo-footer {
+  padding-left: 30px;
+}
